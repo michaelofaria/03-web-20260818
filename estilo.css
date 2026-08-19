@@ -5,10 +5,69 @@
     padding: 0;
 }
 
-header {
-    border: 0.2rem solid blue
+body {
+    /* border: 0.2rem solid orange; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-. logo {
-    border: 0.2rem solid pink
+header {
+    /* border: 0.2rem solid blue; */
+    height: 4rem;
+    display: flex;
+    padding: 0.5rem;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+    background-color: darkgrey;
+    color: black;
+}
+
+.logo {
+    border: 0.2rem solid rgb(212, 102, 163);
+    background-color: plum;
+    font-weight: bold;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    margin-right: 0.8rem;
+}
+
+.titulo {
+    /* border: 0.2rem solid whitesmoke; */
+    width: 100%;
+}
+
+section {
+    /* border: 0.2rem solid red; */
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    /* border: 0.2rem solid yellow; */
+    width: 10rem;
+    background-color: #eee;
+    padding: 0.5rem;
+}
+
+main {
+    /* border: 0.2rem solid black; */
+    display: flex;
+    flex: 1;
+    padding: 0.5rem;
+}
+
+footer {
+    /* border: 0.2rem solid green; */
+    height: 4rem;
+    padding: 0.5rem;
+    background-color: darkgrey;
+    color: black;
 }
