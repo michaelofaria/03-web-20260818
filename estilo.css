@@ -71,3 +71,30 @@ footer {
     background-color: darkgrey;
     color: black;
 }
+
+img {
+    width: 100%;
+}
+
+button{
+    Width: 100%;
+    padding: .5rem;
+    border: none;
+    background-color: #ffc067;
+    color: white;
+    border-radius: .5rem;
+}
+
+button:hover{
+    background-color: #f79927;
+    font-weight: bold;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+#link{
+    text-align: right;
+}
