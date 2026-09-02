@@ -45,10 +45,10 @@ header {
     color: #ccc
 }
 
-.menu-hamburguer:hover i {
-    color: #eee
+.menu-hamburguer:hover #icone {
+    color: green
 }
 
-.menu-hamburguer i:hover {
+.menu-hamburguer #icone:hover {
     color: blue
 }
