@@ -1,4 +1,7 @@
+@import url("cabecalho.css");
+@import url("corpo.css");
 @import url("cartao.css");
+@import url("rodape.css");
 
 * {
     font-size: 16px;
@@ -21,22 +24,6 @@ header {
     padding: .5rem;
     background-color: #252323;
     color: #eee;
-}
-
-logo {
-    border: .1rem blue solid;
-    background-color: blue;
-    color: #eee;
-    font-weight: bold;
-    border-radius: 100%;
-    width: 1rem;
-    height: 1rem;
-    padding: .7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-right: .7rem;
 }
 
 section {

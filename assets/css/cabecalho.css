@@ -1,0 +1,43 @@
+.logo {
+    border: .1rem blue solid;
+    background-color: blue;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: .7rem;
+}
+.titulo {
+    flex: 1;
+}
+
+.menu-hamburguer {
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #464646;
+}
+
+.menu-hamburguer i {
+    font-size: 1.2rem;
+    color: #ccc
+}
+
+.menu-hamburguer:hover i {
+    color: #eee
+}
+
+.menu-hamburguer i:hover {
+    color: blue
+}
