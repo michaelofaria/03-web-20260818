@@ -2,6 +2,7 @@
 @import url("corpo.css");
 @import url("cartao.css");
 @import url("rodape.css");
+@import url("menulateral.css");
 
 * {
     font-size: 16px;
