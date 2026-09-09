@@ -24,5 +24,9 @@ li {
     background-color: #ccc;
     color: black;
     box-shadow: 0.3rem 0.3rem 0.3rem 0.01rem #ddd;
+    border: 0.1rem solid #bdbdbd;
 }
 
+.opcao:hover .rotulo {
+    text-align: right;
+}
