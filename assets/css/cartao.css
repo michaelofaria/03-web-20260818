@@ -13,13 +13,15 @@
     height: auto;
     aspect-ratio: 2/1.3;
     object-fit: cover;
-    border-radius: .3rem;
+    border-radius: .5rem;
 }
 
 .corpo-do-cartao {
     display: flex;
     flex-direction: column;
-    border-radius: .5rem;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: .5rem;
 }
 
 .titulo-do-cartao {
@@ -49,6 +51,7 @@
 .autor-da-noticia {
     font-style: italic;
     font-weight: bold;
+    font-size: .7rem;
 }
 
 .botao-do-cartao {
@@ -65,7 +68,7 @@
     text-decoration: none;
 }
 
-.botao-do-cartao {
+.botao-do-cartao:hover {
     background-color: #1818b0;
-    color: white
+    color: white;
 }
