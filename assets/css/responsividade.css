@@ -1,0 +1,16 @@
+@media (max-width: 576px) { 
+
+.titulo { 
+oppacity: 0; 
+} 
+
+nav { 
+display: none; 
+} 
+
+main { 
+flex-direction: colum; 
+align-itens: center; 
+alingn-content: center;
+}
+}
