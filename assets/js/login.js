@@ -1,6 +1,3 @@
-const email = "admin@email.com";
-const senha = "1234";
-
 function verificarCredenciais() {
     const emailInformado = document.getElementById("email").value;
     const senhaInformada = document.getElementById("senha").value;

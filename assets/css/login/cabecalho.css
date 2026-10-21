@@ -1,11 +1,9 @@
 header {
-    height: 4rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     align-content: center;
-    padding: .5rem;
-    background-color: #252323;
-    color: #eee;
+    padding: 0.5rem;
 }
 
 .logo {
@@ -22,33 +20,9 @@ header {
     align-items: center;
     align-content: center;
     margin-right: .7rem;
+    box-sizing: content-box;
 }
 
 .titulo {
     flex: 1;
-}
-
-.menu-hamburguer {
-    border-radius: 100%;
-    width: 1rem;
-    height: 1rem;
-    padding: .8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: #464646;
-}
-
-.menu-hamburguer i {
-    font-size: 1.2rem;
-    color: #ccc
-}
-
-.menu-hamburguer:hover #icone {
-    color: green
-}
-
-.menu-hamburguer #icone:hover {
-    color: blue
 }
