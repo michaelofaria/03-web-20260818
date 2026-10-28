@@ -1,3 +1,5 @@
+import { usuario } from "./bd.js";
+
 const email = usuario.email;
 const senha = usuario.senha;
 
@@ -15,3 +17,11 @@ function verificarCredenciais() {
     } else
         alert("E-mail informado incorretamente!");
 }
+
+document.addEventListener("DOMContentLoaded",() => {
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", (e) => {
+        e.preventDefault();
+        verificarCredenciais();
+    });
+});
