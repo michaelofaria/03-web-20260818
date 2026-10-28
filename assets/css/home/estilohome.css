@@ -1,9 +1,9 @@
-@import url("cabecalho.css");
+@import url("cabecalhohome.css");
 @import url("corpo.css");
 @import url("cartao.css");
 @import url("rodape.css");
 @import url("menulateral.css");
-@import url(responsividade.css);
+@import url("responsividade.css");
 
 * {
     font-size: 16px;
