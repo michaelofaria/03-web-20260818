@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <imput type="text" id="entrada" />
+    <button onclick="adicionarElemento()">OK</button>
+
+    <ul id="lista"></ul>
+
+    <script>
+        var vetor = [];
+        const entrada = document.getElementById('entrada'); 
+        const lista = document.getElementById('lista');
+
+        function adicionarElemento() {
+            const termo = entrada.value.trim();
+            if (termo){
+                vetor.puh(termo);
+                entrada.value = ' ';
+                atualizarLista();
+            }
+        }        
+
+        function atualizarLista () {
+            const lista = documento.getElementById('lista');
+            lista.innerHTML = "";
+            vetor.forEach(elemto => {
+                const li= document.createElement('li');
+                li.innerHTML = elemto.trim();
+                lista.appendChild(li);
+            });
+        }
+        
+        entrada.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                adicionarElemento();
+            }
+        });
+
+        entrada.onkeyup = function () {
+            var termo = entrada.value.toLowerCase().trim();
+            var itens = document.getElementsByTagName('li');
+
+            for (var i = 0; i < itens.length; i++){
+                var item = itens[i].innerHTML;
+
+                if (item.toLowerCase().includes(termo))
+                    itens[i].style.display = "list-item";
+                else
+                    itens[i].style.display = "none";
+            }
+
+        };
+    </script>
+</body>
+</html>
